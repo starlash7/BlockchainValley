@@ -54,16 +54,29 @@
 // console.log(user1);
 // user1.greet();
 
-const hobbies = ["Sports", "Cooking", "Reading"];
-console.log(hobbies[1]);
+// const hobbies = ["Sports", "Cooking", "Reading"];
+// console.log(hobbies[1]);
 
-hobbies.push("Working");
+// hobbies.push("Working");
 
-const index = hobbies.findIndex((item) => {
-  return item === "Sports";
-});
+// const index = hobbies.findIndex((item) => {
+//   return item === "Sports";
+// });
 
-console.log(index);
+// console.log(index);
 
-const editedHobbies = hobbies.map((item) => item + "!");
-console.log(editedHobbies);
+// const editedHobbies = hobbies.map((item) => item + "!");
+// console.log(editedHobbies);
+
+const [firstName, lastName] = ["Sei", "Taiko"];
+
+// const firstName = userNameData[0];
+// const lastName = userNameData[1];
+
+console.log(firstName);
+console.log(lastName);
+
+const { name: userName, age } = {
+  name: "Sei",
+  age: 34,
+};

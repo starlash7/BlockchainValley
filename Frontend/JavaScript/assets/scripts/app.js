@@ -22,7 +22,34 @@
 // const greeting2 = creatGreeting("Sei", "Hello!, what's up?");
 // console.log(greeting2);
 
-export default (userName, message) => {
-  console.log("Hello");
-  return userName + message;
+// export default (userName, message) => {
+//   console.log("Hello");
+//   return userName + message;
+// };
+
+const user = {
+  name: `Max`,
+  age: 34,
+  greet() {
+    console.log(`Hello!`);
+    console.log(this.age);
+  },
 };
+
+console.log(user.name);
+user.greet();
+
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log(`Hi!`);
+  }
+}
+
+const user1 = new User("Sui", 35);
+console.log(user1);
+user1.greet();

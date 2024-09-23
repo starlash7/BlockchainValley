@@ -98,18 +98,21 @@
 // };
 // console.log(extendUser);
 
-const password = prompt(`Your password`);
+// const password = prompt(`Your password`);
 
-if (password === "Hellow") {
-  console.log("Hellow works");
-} else if (password === "hello") {
-  console.log("Hellow works");
-} else {
-  console.log("Access not granted.");
-}
+// if (password === "Hellow") {
+//   console.log("Hellow works");
+// } else if (password === "hello") {
+//   console.log("Hellow works");
+// } else {
+//   console.log("Access not granted.");
+// }
 
-const hobbies = ["Sports", "Cooking"];
+// const hobbies = ["Sports", "Cooking"];
 
-for (const hobby of hobbies) {
-  console.log(hobby);
-}
+// for (const hobby of hobbies) {
+//   console.log(hobby);
+// }
+
+const list = document.querySelector("ul");
+list.remove();

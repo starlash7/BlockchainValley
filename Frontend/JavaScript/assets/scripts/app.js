@@ -81,19 +81,35 @@
 //   age: 34,
 // };
 
+// const hobbies = ["Sports", "Cooking"];
+// const user = {
+//   name: "sei",
+//   age: 34,
+// };
+
+// const newHobbies = ["Reading"];
+
+// const mergedHobbies = [...hobbies, newHobbies];
+// console.log(mergedHobbies);
+
+// const extendUser = {
+//   isAdmin: true,
+//   ...user,
+// };
+// console.log(extendUser);
+
+const password = prompt(`Your password`);
+
+if (password === "Hellow") {
+  console.log("Hellow works");
+} else if (password === "hello") {
+  console.log("Hellow works");
+} else {
+  console.log("Access not granted.");
+}
+
 const hobbies = ["Sports", "Cooking"];
-const user = {
-  name: "sei",
-  age: 34,
-};
 
-const newHobbies = ["Reading"];
-
-const mergedHobbies = [...hobbies, newHobbies];
-console.log(mergedHobbies);
-
-const extendUser = {
-  isAdmin: true,
-  ...user,
-};
-console.log(extendUser);
+for (const hobby of hobbies) {
+  console.log(hobby);
+}

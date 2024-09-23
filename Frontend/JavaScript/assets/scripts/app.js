@@ -68,15 +68,32 @@
 // const editedHobbies = hobbies.map((item) => item + "!");
 // console.log(editedHobbies);
 
-const [firstName, lastName] = ["Sei", "Taiko"];
+// const [firstName, lastName] = ["Sei", "Taiko"];
 
-// const firstName = userNameData[0];
-// const lastName = userNameData[1];
+// // const firstName = userNameData[0];
+// // const lastName = userNameData[1];
 
-console.log(firstName);
-console.log(lastName);
+// console.log(firstName);
+// console.log(lastName);
 
-const { name: userName, age } = {
-  name: "Sei",
+// const { name: userName, age } = {
+//   name: "Sei",
+//   age: 34,
+// };
+
+const hobbies = ["Sports", "Cooking"];
+const user = {
+  name: "sei",
   age: 34,
 };
+
+const newHobbies = ["Reading"];
+
+const mergedHobbies = [...hobbies, newHobbies];
+console.log(mergedHobbies);
+
+const extendUser = {
+  isAdmin: true,
+  ...user,
+};
+console.log(extendUser);

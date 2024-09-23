@@ -10,4 +10,14 @@
 // console.log(userMessage);
 // console.log(userMessage);
 
-console.log(10 / 5);
+function creatGreeting(userName, message) {
+  //   console.log(userName);
+  //   console.log(message);
+  return "Hi, I am" + userName + ". " + message;
+}
+
+const greeting1 = creatGreeting("Max");
+console.log(greeting1);
+
+const greeting2 = creatGreeting("Sei", "Hello!, what's up?");
+console.log(greeting2);

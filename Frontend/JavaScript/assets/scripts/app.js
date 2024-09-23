@@ -27,29 +27,43 @@
 //   return userName + message;
 // };
 
-const user = {
-  name: `Max`,
-  age: 34,
-  greet() {
-    console.log(`Hello!`);
-    console.log(this.age);
-  },
-};
+// const user = {
+//   name: `Max`,
+//   age: 34,
+//   greet() {
+//     console.log(`Hello!`);
+//     console.log(this.age);
+//   },
+// };
 
-console.log(user.name);
-user.greet();
+// console.log(user.name);
+// user.greet();
 
-class User {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
+// class User {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
 
-  greet() {
-    console.log(`Hi!`);
-  }
-}
+//   greet() {
+//     console.log(`Hi!`);
+//   }
+// }
 
-const user1 = new User("Sui", 35);
-console.log(user1);
-user1.greet();
+// const user1 = new User("Sui", 35);
+// console.log(user1);
+// user1.greet();
+
+const hobbies = ["Sports", "Cooking", "Reading"];
+console.log(hobbies[1]);
+
+hobbies.push("Working");
+
+const index = hobbies.findIndex((item) => {
+  return item === "Sports";
+});
+
+console.log(index);
+
+const editedHobbies = hobbies.map((item) => item + "!");
+console.log(editedHobbies);

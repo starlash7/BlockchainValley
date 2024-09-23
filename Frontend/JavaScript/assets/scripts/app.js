@@ -137,11 +137,11 @@
 
 // greeter(() => console.log("Hi"));
 
-function init() {
-  function greet() {
-    console(`HI!`);
-  }
-  greet();
-}
+// function init() {
+//   function greet() {
+//     console(`HI!`);
+//   }
+//   greet();
+// }
 
-init();
+// init();

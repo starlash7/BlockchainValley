@@ -5,7 +5,9 @@
 
 // console.log(apiKey);
 
-const userMessage = "Hello World!";
+// const userMessage = "Hello World!";
 
-console.log(userMessage);
-console.log(userMessage);
+// console.log(userMessage);
+// console.log(userMessage);
+
+console.log(10 / 5);
